@@ -8,9 +8,13 @@
    ```
 
    修改之后上下标间距就正常多了。
+   
+   
+   
+   对于Type42，输出pdf图片时，会出现**warning："meta NOT subset; don't know how to subset; dropped"**， 目前还不知道什么问题。
 
 
 
-***建议无衬线字体使用Type42-Arial-totally.mplstyle；衬线字体使用Type42-Arial-totally.mplstyle！***
+***建议无衬线字体使用Type42-Arial-totally.mplstyle；衬线字体使用Type42-Times-totally.mplstyle！***
 
 **目前mplstyle已经在matplotlib-3.6.0中测试成功！**
