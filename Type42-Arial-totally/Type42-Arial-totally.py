@@ -6,7 +6,7 @@ mathtext.FontConstantsBase = mathtext.ComputerModernFontConstants
 
 
 
-plt.style.use(r"D:\OneDrive\matplotlib_template\Type42-Arial-totally.mplstyle")
+plt.style.use("Type42-Arial-totally\Type42-Arial-totally.mplstyle")
 x = np.arange(1,11,1)
 y = x**2
 plt.plot(x,y, '-o', label="legend")

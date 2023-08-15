@@ -2,7 +2,7 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.style.use(r"D:\OneDrive\matplotlib_template\Type42-Times-stix.mplstyle")
+plt.style.use("Type42-Times-stix\Type42-Times-stix.mplstyle")
 x = np.arange(1,11,1)
 y = x**2
 plt.plot(x,y, '-o', label="legend")

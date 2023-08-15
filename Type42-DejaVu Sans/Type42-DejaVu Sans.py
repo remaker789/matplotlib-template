@@ -2,7 +2,7 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.style.use(r"D:\OneDrive\matplotlib_template\Type42-DejaVu Sans.mplstyle")
+plt.style.use("Type42-DejaVu Sans\Type42-DejaVu Sans.mplstyle")
 x = np.arange(1,11,1)
 y = x**2
 plt.plot(x,y, '-o', label="legend")

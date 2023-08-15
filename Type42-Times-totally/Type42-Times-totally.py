@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.mathtext import _mathtext as mathtext
 mathtext.FontConstantsBase = mathtext.ComputerModernFontConstants
 
-plt.style.use(r"D:\OneDrive\matplotlib_template\Type42-Times-totally.mplstyle")
+plt.style.use("Type42-Times-totally\Type42-Times-totally.mplstyle")
 x = np.arange(1,11,1)
 y = x**2
 plt.plot(x,y, '-o', label="legend")
